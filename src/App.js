@@ -14,7 +14,7 @@ class App extends React.Component {
     }
     updateImage = (id, clicked) => {
 
-
+        console.log('url: ', process.env.PUBLIC_URL)
         var images = Shuffle(this.state.images);
 
 
